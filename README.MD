@@ -93,4 +93,9 @@ android常用例子如下：
         strings.add("asd");
 
         button2.setOnClickListener(n -> strings.forEach(n -> System.out.println(n)));
+
+        // 使用Java 8的方法引用更方便，方法引用由::双冒号操作符标示，
+        // 看起来像C++的作用域解析运算符
+        features.forEach(System.out::println);
+
 ```

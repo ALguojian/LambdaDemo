@@ -44,6 +44,8 @@ public class MainActivity extends AppCompatActivity {
 
         button2.setOnClickListener(v -> strings.forEach(n -> System.out.println(n)));
 
+
+
     }
 
     private void initView() {
